@@ -1,0 +1,15 @@
+.main {
+    border: 2px solid gold;
+    width: 176px;
+}
+
+button {
+    width: 41px;
+    border-color: gold;
+    color: blue;
+}
+
+.top-bottom {
+    width: 56px;
+}
+

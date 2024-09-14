@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div>
+            <input type = "text" id="calculation">
+        </div>
+        <div>
+            <div>
+                <button class="top-bottom" onclick="clearBtn()">C</button>
+                <button class="top-bottom" onclick="getNum('/')">/</button>
+                <button class="top-bottom" onclick="getNum('%')">%</button>
+            </div>
+            <div>
+                <button onclick="getNum('7')">7</button>
+                <button onclick="getNum('8')">8</button>
+                <button onclick="getNum('9')">9</button>
+                <button onclick="getNum('*')">x</button>
+            </div>
+            <div>
+                <button onclick="getNum('4')">4</button>
+                <button onclick="getNum('5')">5</button>
+                <button onclick="getNum('6')">6</button>
+                <button onclick="getNum('-')">-</button>
+            </div>
+            <div>
+                <button onclick="getNum('1')">1</button>
+                <button onclick="getNum('2')">2</button>
+                <button onclick="getNum('3')">3</button>
+                <button onclick="getNum('+')">+</button>
+            </div>
+            <div>
+                <button class="top-bottom" onclick="getNum('0')">0</button>
+                <button class="top-bottom" onclick="getNum('.')">.</button>
+                <button class="top-bottom" onclick="getResult()">=</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="app.js"></script>
+</html>
